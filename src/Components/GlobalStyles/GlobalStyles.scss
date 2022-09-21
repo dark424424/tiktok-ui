@@ -1,9 +1,10 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;1,500&display=swap');
 
 :root {
     --primary: #fe2c55;
     --black: #000;
+    --white: #fff;
     --text-color: #333;
 
     // DefaultLayout
@@ -22,7 +23,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
