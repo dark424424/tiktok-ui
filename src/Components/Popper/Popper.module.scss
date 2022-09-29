@@ -1,4 +1,7 @@
 .wrapper {
+    display: flex;
+    flex-direction: column;
+    // overflow-y: auto;
     width: 100%;
     min-height: 100px;
     max-height: min(calc((100vh - 96px) - 60px), 734px);
